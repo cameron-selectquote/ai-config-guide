@@ -6,6 +6,8 @@ Configuration guides for AI development tools including Amazon Q CLI, Cursor IDE
 
 This repository provides comprehensive configuration documentation for modern AI-powered development tools, organized by tool and feature type.
 
+It exists because AI tools often lose track of how they are configured: where settings live, which MCPs are enabled, and which CLIs or integrations you rely on most. The docs here keep those reminders close at hand so the tools stay aligned with your preferred connections and workflows.
+
 ## Tools Covered
 
 ### [Amazon Q CLI](./amazon-q-cli/)
@@ -38,6 +40,13 @@ AWS's agentic IDE in Public Preview for AI-native development.
 - **[Hooks](./kiro-ide/hooks/)** - Event-driven automation with .kiro.hook files
 - **[Specs](./kiro-ide/specs/)** - Spec-driven development with requirements, design, and tasks
 - **[Steering](./kiro-ide/steering/)** - Persistent project knowledge through markdown files
+
+### [Kiro CLI (Steering)](./kiro-cli/steering/)
+
+Kiro CLI steering files for global reminders and consistent tool behavior.
+
+**Configurations:**
+- **[Steering Files](./kiro-cli/steering/README.md)** - Global steering and examples for common integrations
 
 ## Prerequisites
 
@@ -230,6 +239,13 @@ ai-config-guide/
     │   └── README.md                  # Specs guide
     └── steering/
         └── README.md                  # Steering guide
+├── kiro-cli/
+│   └── steering/
+│       ├── README.md                  # Kiro CLI steering overview
+│       ├── aws-cli.md                 # AWS CLI steering
+│       ├── atlassian-mcp.md           # Atlassian MCP steering
+│       ├── github-cli.md              # GitHub CLI steering
+│       └── kiro-configuration.md      # Kiro config paths
 ```
 
 ## Configuration Highlights
