@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "atlassian": {
+      "url": "https://mcp.atlassian.com/v1/sse"
+    }
+  }
+}
